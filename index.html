@@ -40,7 +40,7 @@
     <script>
         async function fetchStudentData() {
             try {
-                const response = await fetch('https://student-data-api.azurewebsites.net/api/HttpTrigger1?code=_H9wT1OHoC-IzsTnSyFh6AUJ-c5pMB4bFv4wWWKXSRYRAzFuX-kAZA%3D%3D'); // Replace with actual API URL
+                const response = await fetch('https://student-data-api.azurewebsites.net/api/HttpTrigger1?'); // Replace with actual API URL
                 if (!response.ok) throw new Error(HTTP Error! Status: ${response.status});
 
                 const data = await response.json();
